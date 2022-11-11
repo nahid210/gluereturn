@@ -15,8 +15,8 @@ pipeline {
 	stage('Git clone') {
             steps {
             	sh """
-                sudo rm -fr sudo -S git clone
-                sudo git clone https://github.com/nahid210/multicontainer
+                sudo rm -fr gluereturn
+                sudo -S git clone https://github.com/nahid210/gluereturn
             	"""
 
             }
